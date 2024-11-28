@@ -1,9 +1,10 @@
-
-
-import './App.css'
+import Navbar from './components/NavBar/NavBar';
 
 function App() {
-  return <div>Sunkari Praveen</div>
+  return (<div className="bg-[#171d32] h-auto w-full overflow-hidden">
+   
+     <Navbar/>
+  </div>);
 }
 
 export default App
