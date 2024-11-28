@@ -4,24 +4,24 @@ import {PiCertificate } from "react-icons/pi";
 
 const Education = () => {
   return (
-    <div id="Education" className="p-10 md:p-24">
+    <div id="Education" className="p-2 md:p-16">
       <h1 className="text-2xl md:text-4xl text-white font-bold">Education</h1>
       <div className="flex flex-wrap items-center justify-around">
         <div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+          <div className="flex gap-5 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-2 items-center">
           <PiCertificate color="#4285F4" size={50} />
             <span className="text-white">
               <h2 className="leading-tight">University PG College Secunderabad </h2>
               <p className="text-sm leading-tight font-thin">
-                NOv 2022 - Oct 2024
+                Nov 2022 - Oct 2024
               </p>
               <ul className="text-sm p-2">
                 <li>- Master of Computer Applications</li>
-                <li>- 7.3</li>
+                <li>- 7.3 CGPA</li>
               </ul>
             </span>
           </div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
+          <div className="flex gap-5 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-2 items-center">
           <PiCertificate color="#E50914" size={50} />
             <span className="text-white">
               <h2 className="leading-tight">Government Degree college Medak</h2>
@@ -30,11 +30,11 @@ const Education = () => {
               </p>
               <ul className="text-sm p-2">
                 <li>- Bachelor of Science.</li>
-                <li>- 8.23</li>
+                <li>- 8.23 CGPA</li>
               </ul>
             </span>
           </div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
+          <div className="flex gap-5 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-2 items-center">
           <PiCertificate color="#FF9900" size={50} />
             <span className="text-white">
               <h2 className="leading-tight">Geetha Junior College Medak</h2>
@@ -47,7 +47,7 @@ const Education = () => {
               </ul>
             </span>
           </div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
+          <div className="flex gap-5 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-2 items-center">
           <PiCertificate color="#E50914" size={50} />
             <span className="text-white">
               <h2 className="leading-tight">ZPHS Maktha Bhoopathipur</h2>
@@ -56,7 +56,7 @@ const Education = () => {
               </p>
               <ul className="text-sm p-2">
                 <li>- Secondary Education.</li>
-                <li>- 8.5</li>
+                <li>- 8.5 CGPA</li>
               </ul>
             </span>
           </div>

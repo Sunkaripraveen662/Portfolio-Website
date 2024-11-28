@@ -1,22 +1,31 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import bookstoreImage from "../../assets/libmanage.jpg"; // Replace with your actual image path
+import myntraCloneImage from "../../assets/myntraclone.png"; // Replace with your actual image path
+import portfolioImage from "../../assets/port.png"; // Replace with your actual image path
 
 const Projects = () => {
   return (
-    <div id="Projects" className="p-10 md:p-24 text-white ">
+    <div id="Projects" className="p-10 md:p-24 text-white">
       <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
       <div className="py-12 px-8 flex flex-wrap gap-5">
         <ProjectCard
           title="Bookstore Management System"
-          main="This is a Ecommerce website Using Java build a website to manage the bookstore operations"
+          main="This is an E-commerce website built using Java to manage bookstore operations."
+          repoLink="https://github.com/Sunkaripraveen62/bookstore-management"
+          image={bookstoreImage}
         />
         <ProjectCard
           title="Myntra Clone"
-          main="this is a bloggin website created in ReactJs and used some component library to make a fully functional Myntra clone"
+          main="This is a blogging website created in ReactJs and uses component libraries to make a fully functional Myntra clone."
+          repoLink="https://github.com/Sunkaripraveen662/Myntra-Clone.git"
+          image={myntraCloneImage}
         />
         <ProjectCard
           title="Portfolio Website"
-          main="this is a blogging website created this in ReactJs and used some component library to show Case my skills and information about me"
+          main="This is a blogging website created in ReactJs and uses component libraries to showcase my skills and information about me."
+          repoLink="https://github.com/Sunkaripraveen662/Portfolio-Website.git"
+          image={portfolioImage}
         />
       </div>
     </div>

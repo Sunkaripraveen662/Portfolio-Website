@@ -7,28 +7,52 @@ const Contact = () => {
   return (
     <div
       id="Contact"
-      className="flex justify-around bg-[#465697] text-white p-10 md:p-12 items-center"
+      className="flex flex-col md:flex-row justify-around bg-[#465697] text-white p-10 md:p-12 items-center gap-6 md:gap-12"
+      style={{ minHeight: "50vh" }} // Adjust the minHeight value to increase height
     >
-      <div>
-        <h1 className="text-2xl md:text-6xl font-bold">Contact</h1>
-        <h3 className="text-sm md:text-2xl font-normal">
-          Feel Free To reach out!
+      {/* Left Section: Heading */}
+      <div className="text-center md:text-left">
+        <h1 className="text-3xl md:text-6xl font-bold mb-2">Contact</h1>
+        <h3 className="text-md md:text-2xl font-light">
+          Feel free to reach out!
         </h3>
+        <h6 className="text-md font-light">(By clicking on the links beside)</h6>
       </div>
 
-      <ul className="text-sm md:text-xl">
-        <li className="flex gap-1 items-center">
-            
-          <MdOutlineEmail size={20} />
-          sunkaripraveen662@gmail.com
+      {/* Right Section: Links */}
+      <ul className="flex flex-col gap-4 text-md md:text-xl">
+        <li className="flex items-center gap-2 hover:text-gray-300 transition duration-300">
+          <MdOutlineEmail size={25} />
+          <a
+            href="mailto:sunkaripraveen662@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            Gmail
+          </a>
         </li>
-        <li className="flex gap-1 items-center">
-          <CiLinkedin />
-          https://www.linkedin.com/in/sunkari-praveen-80b871315
+        <li className="flex items-center gap-2 hover:text-gray-300 transition duration-300">
+          <CiLinkedin size={25} />
+          <a
+            href="https://www.linkedin.com/in/sunkari-praveen-80b871315"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            LinkedIn
+          </a>
         </li>
-        <li className="flex gap-1 items-center">
-          <FaGithub />
-          https://github.com/Sunkaripraveen662
+        <li className="flex items-center gap-2 hover:text-gray-300 transition duration-300">
+          <FaGithub size={25} />
+          <a
+            href="https://github.com/Sunkaripraveen662"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            GitHub
+          </a>
         </li>
       </ul>
     </div>

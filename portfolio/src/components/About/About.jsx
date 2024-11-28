@@ -21,9 +21,7 @@ const About = () => {
                   Java Full Stack developer
                 </h1>
                 <p className='text-sm md:text-md leading-tight'>
-                  I am dedicated to getting an opportunity where I can maximize
-                  my potential and significantly contribute to the
-                  organization's growth.
+                  I am trained with technologies like java with oops, Exception handling, collections, Java 8, and Frameworks like Hibernate, Spring, SpringBoot where i can build java based enterprise Applications with my skills.
                 </p>
               </span>
             </div>
@@ -35,9 +33,7 @@ const About = () => {
                   Front End developer
                 </h1>
                 <p className='text-sm md:text-md leading-tight'>
-                  I am dedicated to getting an opportunity where I can maximize
-                  my potential and significantly contribute to the
-                  organization's growth.
+                I learnt technologies like Html, Css, JavaScript and libraries like ReactJs and Bootstrap where i can build interactve web applications with my skills.
                 </p>
               </span>
             </div>
@@ -49,9 +45,7 @@ const About = () => {
                   Database developer
                 </h1>
                 <p className='text-sm md:text-md leading-tight'>
-                  I am dedicated to getting an opportunity where I can maximize
-                  my potential and significantly contribute to the
-                  organization's growth.
+                  As a fullstack developer i gained knowledge in OracleSQL to connect to the database and through java i can connect database with Jbbc and hibernate.
                 </p>
               </span>
             </div>
