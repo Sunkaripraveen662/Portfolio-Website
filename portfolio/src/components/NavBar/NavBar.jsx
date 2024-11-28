@@ -22,22 +22,18 @@ const Navbar = () => {
             Skills
           </li>
         </a>
-        <a href='Projects'>
+        <a href='#Projects'>
           <li className='text-md transition-all duration-300 p-1 md:p-0'>
             Projects
           </li>
         </a>
-        <a href='Education'>
+        <a href='#Education'>
           <li className='text-md transition-all duration-300 p-1 md:p-0'>
             Education
           </li>
         </a>
-        <a href='Resume'>
-          <li className='text-md transition-all duration-300 p-1 md:p-0'>
-            Resume
-          </li>
-        </a>
-        <a href='Contact'>
+        
+        <a href='#Contact'>
           <li className='text-md transition-all duration-300 p-1 md:p-0'>
             Contact
           </li>
